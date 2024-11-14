@@ -69,3 +69,30 @@ let person = {
 
 1 dot-notation  => person.name
 2 box-notation  => person['name']
+
+
+
+Operators:
+
+1. Arithmatic : +,- *, / % **
+2. Assignment
+3. Comparison
+4. Bitwise
+6. Logical
+
+
+
+
+pre increment
+post increment
+per decrement
+post decrement
+
+a = 5
+(a--)
+
+Assignment
+
+x += 2
+x -= 3
+x/= 2
