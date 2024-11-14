@@ -1,0 +1,71 @@
+what we can do with JS?
+=> web-page, mobile App, game Devlopment etc.
+
+Q2. Do we ned Compiler to execute the JS?
+=>NO, we ned js Engine to run the js.
+
+sublimetext
+
+
+
+
+Variable
+
+var = we can reassine as well as we can redeclare. and it is a global scope
+let = we can reassine but we cannot redeclare. and it is a block scope or functional scope
+const = we cannot reassign and redeclare
+
+var a = 20
+var a = 30
+
+let a = 20
+a = 30
+
+const a = 20
+
+
+Variables rules
+1. it cannot be name as any keywords
+2. variables should containt some meaning
+3. we cannot use white spaces => let firtNameIs = 
+
+let a = 20, b = 30
+let a = 20
+let b = 30
+
+
+PRIMITIVE TYPES:
+
+1 String  let a = "Strings";
+2 Number  let b = 67
+3 Boolean   let c = true/false
+4 Undefined  let z,
+5 null
+
+
+
+JS is Dynamic Typing
+
+let a = 20
+a = "Akash"
+
+
+
+REFerence TYPES
+
+1 object   
+2 Arrays   let arr =[23,"string", true, 1.23]
+arr[1]= 23
+arr[4]=787
+3 Functions
+
+
+let person = {
+    name: "js"
+    age: 27
+}
+
+2 ways to use this object
+
+1 dot-notation  => person.name
+2 box-notation  => person['name']
