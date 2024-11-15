@@ -24,3 +24,11 @@
 // console.log(ans3)
 // console.log(ans4)
 
+// a = 5
+// b = '5'
+// console.log(a===b)
+
+let age = 15
+let status = (age > 18) ? "vote" : "Cannot vote"
+
+console.log(status)

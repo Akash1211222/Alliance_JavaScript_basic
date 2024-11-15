@@ -96,3 +96,64 @@ Assignment
 x += 2
 x -= 3
 x/= 2
+
+Comparison
+
+<
+>
+>=
+<=
+===  -> strict equality
+==  -> loose equality
+!==
+
+
+Ternary Operators
+
+condition ? (True) : (false);
+
+
+
+Logical Operators
+
+1. AND  &
+
+    con1 && con2 && con3
+    t       t       T   =t
+    t       F       T   =F
+    F       F       F   = F
+
+    0  1 0
+    1  0 0
+    1   1 1
+    0   0 0
+
+2. OR  ||
+
+        con1 || con2 || CON3  =  
+        T       F          T  =t
+        F       F           F  = F
+        F       F           T  = T
+        T       T           T   T
+
+
+        0   1   1
+        1   0   1
+        0   0   0
+        1   1   1
+
+
+
+3. NOT  !
+TRUE = FALSE
+
+
+
+
+Falsey  aND TRUTHY
+
+
+Falsey -> undefine , null , 0 , false , ' ' , NaN
+
+Truthy -> anything that is not falsey
+
