@@ -28,7 +28,24 @@
 // b = '5'
 // console.log(a===b)
 
-let age = 15
-let status = (age > 18) ? "vote" : "Cannot vote"
+// let age = 15
+// let status = (age > 18) ? "vote" : "Cannot vote"
 
-console.log(status)
+// console.log(status)
+
+// (Undefine || false || " " || 2 || NaN || 0)
+// false || false || false || true || false || false
+
+
+// 2
+// let a = '1'
+// let b = 1
+
+
+
+// (5 || 2 || 0 || " " || "STRING" || undefined ||  0)
+
+
+// (undefined || NaN || "String" || " ")
+
+// (false || 0 || 2 || 5 || 10 || NaN)

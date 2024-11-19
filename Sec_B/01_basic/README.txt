@@ -55,7 +55,7 @@ REFerence TYPES
 
 1 object   
 2 Arrays   let arr =[23,"string", true, 1.23]
-arr[1]= 23
+arr[0]= 23
 arr[4]=787
 3 Functions
 
@@ -76,7 +76,13 @@ Operators:
 
 1. Arithmatic : +,- *, / % **
 2. Assignment
+
+x = x+1   x+=1
+x = x-1     x-=1
+
 3. Comparison
+<,
+>,==, !==, ===
 4. Bitwise
 6. Logical
 
@@ -132,7 +138,7 @@ Logical Operators
 
         con1 || con2 || CON3  =  
         T       F          T  =t
-        F       F           F  = F
+        F       T           F  = T
         F       F           T  = T
         T       T           T   T
 
@@ -155,5 +161,5 @@ Falsey  aND TRUTHY
 
 Falsey -> undefine , null , 0 , false , ' ' , NaN
 
-Truthy -> anything that is not falsey
+Truthy -> anything that is not falsey.
 
