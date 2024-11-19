@@ -54,9 +54,42 @@
 // let b = 0;
 
 
-let car = {
-    name : "bmw",
-    wheels: 4,
-    color: "red",
-    model: 2008,
-}
+// let car = {
+//     name : "bmw",
+//     wheels: 4,
+//     color: "red",
+//     model: 2008,
+// }
+
+
+// let a = 5 // 6
+// let b = 10  // 9 8
+// let ans1 = (++a) * (--b) //54
+// let ans2 = (a++) * (--b) // 48            a = 7 b = 8
+// let ans3 = (a++) * (b--) // 7*8                  a =8 b = 7
+// let ans4 = (++a) * (b--) //9* 7             b   8
+
+// console.log(ans1)
+// console.log(ans2)
+// console.log(ans3)
+// console.log(ans4)
+
+
+
+// a = 5
+// b = '5'
+// console.log(a===b)  loose equality  & strict equality
+
+// let age = 15
+// let status = (age >= 18) ? "I can Vote" : "I cannot vote"
+
+// console.log(status)
+
+
+
+
+
+let a = "1"
+let b = 1;
+
+(a==b)?"print num" : "dont print"

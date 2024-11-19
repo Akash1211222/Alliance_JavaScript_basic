@@ -55,13 +55,13 @@ REFerence TYPES
 
 1 object   
 2 Arrays   let arr =[23,"string", true, 1.23]
-arr[1]= 23
+arr[0]= 23
 arr[4]=787
 3 Functions
 
 
 let person = {
-    name: "js"
+    name: "js",
     age: 27
 }
 
@@ -69,3 +69,103 @@ let person = {
 
 1 dot-notation  => person.name
 2 box-notation  => person['name']
+
+
+
+
+Operators:
+
+1 Arithmetic
++
+-
+*
+/
+%
+**
+
+a++ post increment
+++a pre increment
+a-- post decrement
+--a pre decrement
+
+a = 5
+console(a++) 5
+++a = 6
+
+
+
+
+2 Assignment
+X = X+1  X+=1
+X = X-1 X-=1
+X = X/1 X/=1
+
+3 Comparion
+
+< 
+>
+>=
+<=
+==   -> Loose Equality
+!=
+===     -> Strict Equality
+
+Ternary Operators
+
+condition ? "true" : "false"
+
+
+
+
+
+4 Bitwise
+5 Logical
+
+and
+
+condition1 && condition2 && condition3
+t               t               t           = t
+t               f               t           = f
+f               f                  false    = false
+or
+condition1 || condition2 || condition3
+t               t               t           = t
+t               f               t           =  t
+f               f                  false    = false
+Not
+
+true = false
+false = true
+
+
+falsey => Undefined, false, null, 0, " ", NaN
+tuthy => Anything that is not falsey
+
+(5 || undefine || 4)
+
+
+BITWISE Operators
+
+1. Bitwise AND
+2. Bitwise or
+
+
+AND
+a   b   o/p
+1   0   0
+0   1   0
+0   0   0
+1   1   1
+
+
+2 =  0010
+5 =  0101
+     0000
+
+a   b   o/p
+1   0   1
+0   1   1
+0   0   0
+1   1   1
+
+     0111
