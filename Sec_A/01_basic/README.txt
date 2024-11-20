@@ -169,3 +169,58 @@ a   b   o/p
 1   1   1
 
      0111
+
+
+Control Statement
+
+1. If-else-If
+let age = 20
+if(age<18){
+     console.log("You are a Kid")
+}elseif(age>18 && age < 50){
+    console.log("You are a Adult")
+}else{
+     console.log("You are old")
+}
+
+
+Switch
+
+Switch (conition){
+     case 1:
+     break
+     case 2
+     break
+}
+
+Loops in js => Loops are use to exicute a pice of Code again and again
+
+for Loops
+
+for(let i = 0; i <= n; i++){
+     console.log(i)
+}
+
+infiite loop => A loop never end
+
+
+
+while loop
+
+let i = 0
+while(condition){
+
+i++
+}
+
+
+do while loop
+
+
+do{
+
+}while(condition)
+
+Q. print all even Number from 1 to 100
+
+Q.  Create a game where you Start with random Number. Ask the user to keep Guessing the game number until the user enter Correct Value?

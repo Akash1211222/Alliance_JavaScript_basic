@@ -89,7 +89,29 @@
 
 
 
-let a = "1"
-let b = 1;
+// let a = "1"
+// let b = 1;
 
-(a==b)?"print num" : "dont print"
+// (a==b)?"print num" : "dont print"
+
+
+// console.log("Alliance University")
+// console.log("Alliance University")
+
+// let n = 50
+// for(let i = 0; i <= n; i++){
+//      console.log(i)
+// }
+// console.log("the value of i = ",i)
+
+
+// for(let i=1; i>=0; i++){
+//     console.log(i)
+// }
+
+
+// let i = 1;
+// while(i<=10){
+//     console.log("Akash");
+//     i++;
+// }
