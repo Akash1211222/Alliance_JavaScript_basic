@@ -115,3 +115,23 @@
 //     console.log("Akash");
 //     i++;
 // }
+
+
+
+// for(let i =1; i<=100; i++){
+//     if(i%2 == 0){
+//         console.log(i)
+//     }
+// }
+
+
+let gameNumber = 25
+
+let guessNumber = prompt("guess the number");
+// console.log(guessNumber)
+
+while(gameNumber != guessNumber){
+    guessNumber = prompt("You entered wrong number");
+
+}
+console.log("Congratultion")

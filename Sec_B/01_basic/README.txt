@@ -163,3 +163,77 @@ Falsey -> undefine , null , 0 , false , ' ' , NaN
 
 Truthy -> anything that is not falsey.
 
+
+
+
+Loops
+
+for Loops
+
+for(initilizion ; condition ; Updation){
+    work to perform
+}
+
+
+while Loops
+
+initilizion
+while(condition){
+    do some work
+
+    updation
+}
+
+do while Loops
+
+initilization;
+do{
+    do some work
+
+
+    updation
+}while(condition)
+
+for of Loops
+
+for(val of string)
+
+for in Loops
+
+for( let key in obj)
+
+
+
+Print all Even number from 0 to 100?
+
+if(CONDITION){
+    this will work
+}else{
+    this will work
+}
+
+
+
+
+Create a Game where You Start with A random number. Ask the user to keep guessing the game Number untill they entered the Correct .
+
+
+give the number
+
+ASK FROM THE user
+
+CHECK GIVEN NUM == ASK NUM
+
+ASK AGAIN
+
+
+PRINT 
+
+
+
+
+String in JS
+
+Create string
+
+templatre Litrels
