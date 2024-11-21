@@ -237,3 +237,5 @@ String in JS
 Create string
 
 templatre Litrels
+
+Q. Prompt the user to enter there full name. Generate a Username for them based on the input. Start userName with @, followed by there full name and ending with the fullname length? 

@@ -125,17 +125,53 @@
 
 // let str1 = 'String'
 
-let Name ="     Rahul Kumar         Sharma      "
-let age = 20;
-console.log(Name)
+// let Name ="     Rahul Kumar         Sharma      "
+// let age = 20;
+// console.log(Name)
 
-let status = "hello my name is " + Name + " and my age is "+ age;
-let Newstatus = `hello my name is ${Name}  and my age is  ${2+5+10}`
-Newstatus.toUpperCase()
-console.log(Newstatus)
-console.log(Upper)
+// let status = "hello my name is " + Name + " and my age is "+ age;
+// let Newstatus = `hello my name is ${Name}  and my age is  ${2+5+10}`
+// Newstatus.toUpperCase()
+// console.log(Newstatus)
+// console.log(Upper)
 
 
 
 
 //  toUpperCase()
+
+
+
+
+
+// let randomNum = 44;
+
+// let guessNum = prompt("Guess the number")
+// while(guessNum != randomNum){
+//     guessNum = prompt("wrong guess try again")
+// }
+// console.log("Your guess is correct")
+// let a = "rahul"
+// let str = `hello how are u all ${a} ${2*3*4*5}`
+//  slice
+
+// let str = "JavaScript"
+// // console.log(str.slice(2,6))
+
+// let str2 = "HTML"
+// let str3 = "css"
+
+// let newStr = str.concat(str2)
+// console.log(newStr)
+// console.log(str+str2+str3)
+
+
+// let str = "Hellololololo"
+
+// let newStr = str.replaceAll("lo", "mo")
+// console.log(newStr)
+
+let name = prompt("Give me your full name");
+
+let newName = "@" + name + name.length;
+console.log(newName)
