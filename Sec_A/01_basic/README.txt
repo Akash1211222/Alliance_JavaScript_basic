@@ -224,3 +224,29 @@ do{
 Q. print all even Number from 1 to 100
 
 Q.  Create a game where you Start with random Number. Ask the user to keep Guessing the game number until the user enter Correct Value?
+
+STRINGS IS A SEQUENCE OF CARACTER
+
+
+
+let str = "Hello";
+let str2 = 'Hello';
+
+
+Temlpate litrels
+let str4 = `Hello`
+
+
+1. toUpperCase()
+2. toLowerCase()
+length()
+3. trim()
+3. slice()
+4. concate()
+5 replace()
+
+Prompt the user to enter there full name. Generate a username for them based on the input. Start username with @, followed by ther fullname and end with the fullname length. 
+Note: Ther should be no whiteSpace in between your full name
+
+ex: AkashPaul
+=: @AkashPaul9;

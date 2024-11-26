@@ -125,13 +125,51 @@
 // }
 
 
-let gameNumber = 25
+// let gameNumber = 25
 
-let guessNumber = prompt("guess the number");
-// console.log(guessNumber)
+// let guessNumber = prompt("guess the number");
+// // console.log(guessNumber)
 
-while(gameNumber != guessNumber){
-    guessNumber = prompt("You entered wrong number");
+// while(gameNumber != guessNumber){
+//     guessNumber = prompt("You entered wrong number");
 
-}
-console.log("Congratultion")
+// }
+// console.log("Congratultion")
+
+
+// let str = "Hello"
+
+// console.log(str[0])
+// console.log(str[1])
+// console.log(str[2])
+// console.log(str[3])
+// console.log(str[4])
+
+// let marvel = "thor"
+// let marvel2 = "Ironman"
+// let marvel3 = "Spiderman"
+// let ans = marvel.replace('h','p')
+// console.log(ans)
+// console.log(marvel)
+
+
+
+// console.log(marvel+marvel2+marvel3)
+// console.log(marvel.concat(marvel2.concat(marvel3)))
+
+// console.log(name.slice(1,7))
+// let age = "27"
+// let para = "Hello my name is "+ name + " and my age is "+ age +" .";
+
+// let para2 = `Hello my name is  ${name}  and my age is  ${age} and my  calculation is ${3*4+66*8}`
+// console.log(para)
+// console.log(para2)
+
+
+let name  = prompt("Full Name");
+let len = name.length;
+
+let para = `@${name}${len}`
+console.log(para)
+
+
