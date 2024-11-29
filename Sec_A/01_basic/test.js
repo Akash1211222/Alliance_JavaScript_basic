@@ -166,10 +166,51 @@
 // console.log(para2)
 
 
-let name  = prompt("Full Name");
-let len = name.length;
+// let name  = prompt("Full Name");
+// let len = name.length;
 
-let para = `@${name}${len}`
-console.log(para)
+// let para = "@" + name +len
+// console.log(para)
 
 
+
+// Arrays
+
+// Collection of items
+
+
+// let marks ={
+//     std1 : 98,
+//     std2 : 95,
+//     std3 : 90,
+//     std4 : 88
+// }
+
+// let markss = [98,95,90,88]
+// markss[0]
+// markss[1]
+// markss[2]
+
+// for(let i = 0;i<markss.length;i++){
+//     console.log(markss[i])
+// }
+
+// let heroes = ["ironman", "Captain America", "Spiderman", "Thor", "ShaktiMan"]
+
+// for(hero of heroes){
+//     console.log(hero.toUpperCase())
+// }
+
+
+// let marks  = [85,84,95,90,50]
+
+// let sum = 0
+
+// for(let val of marks){
+//     sum += val
+// }
+// console.log(sum)
+
+// let avg = sum / marks.length
+
+// console.log(avg)

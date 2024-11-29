@@ -243,10 +243,21 @@ length()
 3. trim()
 3. slice()
 4. concate()
-5 replace()
+5 replaceAll()\
+
+
+hello
+l,m replace-> hemlo, replacAll -> hemmo
 
 Prompt the user to enter there full name. Generate a username for them based on the input. Start username with @, followed by ther fullname and end with the fullname length. 
 Note: Ther should be no whiteSpace in between your full name
 
 ex: AkashPaul
 =: @AkashPaul9;
+
+q. for a give array with marks of students ->[85,84,95,90,50]
+Find the average marks of the class
+
+
+Q. for a given array with price of 5 items ->[250,645,300,900,50]
+All items have an offer of 10% OFF on them. Change the array to store final price after applying offers
