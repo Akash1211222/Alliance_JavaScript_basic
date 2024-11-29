@@ -127,6 +127,7 @@
 
 // let Name ="     Rahul Kumar         Sharma      "
 // let age = 20;
+// Name.trim()
 // console.log(Name)
 
 // let status = "hello my name is " + Name + " and my age is "+ age;
@@ -171,7 +172,42 @@
 // let newStr = str.replaceAll("lo", "mo")
 // console.log(newStr)
 
-let name = prompt("Give me your full name");
+// let name = prompt("Give me your full name");
 
-let newName = "@" + name + name.length;
-console.log(newName)
+// let newName = "@" + name + name.length;
+// console.log(newName)
+
+
+// Arrays
+
+// let name = {
+//     std : 98,
+//     std2:95,
+//     std3:90,
+//     std4:98
+// }
+
+// let marks = [98,96,92,98,99]
+// // marks[0]
+// // marks[1]
+// // marks[2]
+
+// for(let i=0;i<marks.length;i++){
+//     console.log(marks[i]);
+// }
+
+
+// let heros = ["ironMan", "Batman", "Hulk", "Spiderman", "ShaktiMan"]
+// for(hero of heros){
+//     console.log(hero.toUpperCase())
+// }
+
+
+let marks = [85,84,95,90,50]
+let sum = 0
+for(let val of marks){
+    sum = sum + val
+}
+
+let avg = sum /marks.length;
+console.log(`Avg marks of the class is ${avg}`)
