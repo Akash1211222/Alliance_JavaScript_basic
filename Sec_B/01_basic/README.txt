@@ -246,3 +246,11 @@ Find the average marks of the class
 
 Q. for a given array with price of 5 items ->[250,645,300,900,50]
 All items have an offer of 10% OFF on them. Change the array to store final price after applying offers
+
+
+methods in Arrays
+l. push()
+2. pop()
+3. toString
+4. slice()
+5 splice() => [1,2,3,4,5] => splice(startInd, delCount,newEle)

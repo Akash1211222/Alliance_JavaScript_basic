@@ -203,11 +203,70 @@
 // }
 
 
-let marks = [85,84,95,90,50]
-let sum = 0
-for(let val of marks){
-    sum = sum + val
-}
+// let marks = [85,84,95,90,50]
+// let sum = 0
+// for(let val of marks){
+//     sum = sum + val
+// }
 
-let avg = sum /marks.length;
-console.log(`Avg marks of the class is ${avg}`)
+// let avg = sum /marks.length;
+// console.log(`Avg marks of the class is ${avg}`)
+
+// for a given array with price of 5 items ->[250,645,300,900,50]
+// // All items have an offer of 10% OFF on them. Change the array to store final price after applying offers
+// let items = [250,645,300,900,50]
+// let i = 0;
+
+// for(let val of items){
+//     let offer = val / 10;
+//     items[i] -= offer 
+//     console.log(items[i])
+//     i++
+// }
+
+
+
+// for(let i =0; i<items.length; i++){
+//     let offer = items[i]/10;
+//     items[i] -= offer
+// }
+// console.log(items)
+
+// let arr = [23,76,88,34,66]
+// let arr2
+
+
+// console.log(arr.toString())
+// arr.push(70)
+// console.log(arr)
+// let del = arr.pop()
+// // console.log(del)
+
+// let marvel = ["thor", "ironman", "captain America"]
+// let dc = ["Superman", "AquaMan"]
+
+// let heros = marvel.concat(dc.concat(num))
+// console.log(heros)
+
+let num = [23,33,44,55,66,7,88,99]
+
+// num.splice(2,3,4,5,6)
+// num.splice(2,3)
+// num.splice(2,0,50)
+
+
+// console.log(num.slice(2,6))
+
+// create a array to store items -> "Uber", "Google", "Netflix", "L&T", "Microsoft", "IBM"
+
+// Remove the last item from array
+// remove netflix & L&T and add "Bloomberg"
+// Add Amazon at the end
+
+let com = ["Uber", "Google", "Netflix", "L&T", "Microsoft", "IBM"]
+com.pop()
+console.log("Remove last",com)
+com.splice(2,2,"Bloomberg")
+com.push("Amz")
+
+console.log(com);
