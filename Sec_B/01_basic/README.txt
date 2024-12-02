@@ -254,3 +254,18 @@ l. push()
 3. toString
 4. slice()
 5 splice() => [1,2,3,4,5] => splice(startInd, delCount,newEle)
+
+
+
+
+Functions in Js
+
+1. Function Defination              Function Call
+
+function functionName(){                functionName()
+    // perform task
+}
+
+
+
+Q. Create a function using the "function" keyword that takes a string as an argument and return the number of vowels in the string

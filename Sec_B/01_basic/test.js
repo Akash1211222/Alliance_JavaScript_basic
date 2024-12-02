@@ -263,10 +263,47 @@ let num = [23,33,44,55,66,7,88,99]
 // remove netflix & L&T and add "Bloomberg"
 // Add Amazon at the end
 
-let com = ["Uber", "Google", "Netflix", "L&T", "Microsoft", "IBM"]
-com.pop()
-console.log("Remove last",com)
-com.splice(2,2,"Bloomberg")
-com.push("Amz")
+// let com = ["Uber", "Google", "Netflix", "L&T", "Microsoft", "IBM"]
+// com.pop()
+// console.log("Remove last",com)
+// com.splice(2,2,"Bloomberg")
+// com.push("Amz")
 
-console.log(com);
+// console.log(com);
+
+
+// Function
+
+// function myFunction(msg){
+//     console.log(msg)
+    
+// }
+// myFunction(232)
+
+// myFunction()
+// myFunction()
+// myFunction()
+
+// function myAddition(x , y){  // parameters
+//    return x+y // arguments
+// }
+
+// let mul = myAddition(2,5)
+
+// Create a function using the "function" keyword that takes a string as an argument and return the number of vowels in the string
+
+function vowels(str){
+
+    let count = 0
+    for(let char of str){
+        if(
+            char ==="a" || char === "e" || char === "i" || char ==="o" || char === "u"
+        ){
+            count++
+        }
+    }
+    console.log(count)
+}
+
+
+vowels("aabecid")

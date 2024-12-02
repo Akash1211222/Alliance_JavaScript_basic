@@ -207,10 +207,72 @@
 // let sum = 0
 
 // for(let val of marks){
-//     sum += val
+//     sum = sum + val
+//      0 = 0 + 85
+//      85 = 85 +84
 // }
 // console.log(sum)
 
 // let avg = sum / marks.length
 
 // console.log(avg)
+
+// for a given array with price of 5 items ->[250,645,300,900,50]
+// All items have an offer of 10% OFF on them. Change the array to store final price after applying offers
+
+// let items = [250,645,300,900,50]
+// let i = 0;
+// for(let val of items){
+//     let offer = val / 10
+//     items[i] -= offer
+//     console.log(items[i])
+//     i++
+// }
+
+
+
+
+// // console.log(items)
+// for(let i=0; i<items.length; i++){
+//     let offer = items[i]/10
+//     items[i] -= offer
+// }
+// console.log(items)
+
+// let items = [250,645,300,900,50]
+// items.push(10)
+// let del = items.pop()
+// let str = items.toString()
+
+// let marvel = ["Spiderman", "IronMan", "Thor"]
+// marvel.splice(0,0,"chota")
+
+// let dc = ["Batman", "Aquaman"]
+// let num = [1,2,3,4,5,6,7,8]
+// num.splice(3,4,44,55,66,77)
+
+
+
+// let newNum = num.slice(3,7)
+
+// let hero = marvel.concat(dc.concat(num))
+// console.log(hero)
+
+
+// Create an array -> "microsoft", Uber, Google, IBM , Netflix
+// a. Remove the last item from array
+// b. remove google and IBM and add Bloomberg
+// c. Add Amazon at end.
+let array1=["microsoft","uber","google","IBM","netflix"]
+array1.pop()
+console.log(array1)
+array1.push("amazon")
+console.log(array1)
+
+let brand=["microsoft","uber","google","IBM","netflix"]
+brand.pop()
+console.log(brand)
+brand.splice(2,2,"skullcandy")
+console.log(brand)
+brand.push("amazon")
+console.log(brand)
