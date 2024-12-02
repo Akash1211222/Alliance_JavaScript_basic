@@ -263,16 +263,59 @@
 // a. Remove the last item from array
 // b. remove google and IBM and add Bloomberg
 // c. Add Amazon at end.
-let array1=["microsoft","uber","google","IBM","netflix"]
-array1.pop()
-console.log(array1)
-array1.push("amazon")
-console.log(array1)
+// let array1=["microsoft","uber","google","IBM","netflix"]
+// array1.pop()
+// console.log(array1)
+// array1.push("amazon")
+// console.log(array1)
 
-let brand=["microsoft","uber","google","IBM","netflix"]
-brand.pop()
-console.log(brand)
-brand.splice(2,2,"skullcandy")
-console.log(brand)
-brand.push("amazon")
-console.log(brand)
+// let brand=["microsoft","uber","google","IBM","netflix"]
+// brand.pop()
+// console.log(brand)
+// brand.splice(2,2,"skullcandy")
+// console.log(brand)
+// brand.push("amazon")
+// console.log(brand)
+
+
+
+
+// function printHello(msg){ // parametrs
+//     console.log(msg)
+//     console.log(msg)
+//     console.log(msg)
+//     console.log(msg)
+//     console.log(msg)
+// }
+
+// printHello(25) // arguments
+// printHello("Hello devloper")
+
+
+
+// function add(a, b){
+//     console.log("Before return")
+//     return a * b
+//     console.log("after return")
+
+// }
+
+// let myAdd = add("Hello",25)
+// console.log(myAdd)
+
+
+// Q. Create a function using "function" keywrd that takes a string as an arguments and return the number of vowels in the string
+function vowelcount(word){
+    let vowels ='aeiou'
+    let n = 0
+    for(char of word){
+        if(vowels.includes(char)){
+            n +=1
+        }
+    }
+    console.log(n)
+}
+
+vowelcount('seven')
+
+// let i = ""

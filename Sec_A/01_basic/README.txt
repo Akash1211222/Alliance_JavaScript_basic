@@ -275,3 +275,17 @@ Create an array -> "microsoft", Uber, Google, IBM , Netflix
 a. Remove the last item from array
 b. remove google and IBM and add Bloomberg
 c. Add Amazon at end.
+
+
+
+Functions in JS
+
+1. Function Defination                  Function Call
+
+function functionName(){                functionName()
+     ...// Perform some task
+}
+
+
+
+Q. Create a function using "function" keywrd that takes a string as an arguments and return the number of vowels in the string
