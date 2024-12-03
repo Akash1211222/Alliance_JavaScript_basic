@@ -292,18 +292,54 @@ let num = [23,33,44,55,66,7,88,99]
 
 // Create a function using the "function" keyword that takes a string as an argument and return the number of vowels in the string
 
-function vowels(str){
+// function vowels(str){
 
-    let count = 0
-    for(let char of str){
-        if(
-            char ==="a" || char === "e" || char === "i" || char ==="o" || char === "u"
-        ){
-            count++
-        }
-    }
-    console.log(count)
-}
+//     let count = 0
+//     for(let char of str){
+//         if(
+//             char ==="a" || char === "e" || char === "i" || char ==="o" || char === "u"
+//         ){
+//             count++
+//         }
+//     }
+//     console.log(count)
+// }
 
 
-vowels("aabecid")
+// vowels("aabecid")
+
+
+// Map Filter Reduce
+
+
+
+//  Map => map creates a new array with the result of some operation.
+
+
+
+// let newArr = arr.map((val)=>{
+    // return val*val
+    // })
+    // console.log(arr)
+    // console.log(newArr)
+    
+    
+    // Filter
+    // it also create a new array of element that give  true or condition
+    
+    
+    // let newArr = arr.filter((val)=>{
+        //     return val%2 == 0
+        // })
+        // console.log(arr)
+        // console.log(newArr)
+        
+// reduce=> perform some operation & reduce the arr to a single value
+
+
+        // let arr = [1,2,302,4,5,6,7,8,9,10]
+
+        // let addition = arr.reduce((prev,curr)=>{
+        //     return prev > curr? prev:curr
+        // })
+        // console.log(addition)

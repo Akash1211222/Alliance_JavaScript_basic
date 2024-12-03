@@ -269,3 +269,11 @@ function functionName(){                functionName()
 
 
 Q. Create a function using the "function" keyword that takes a string as an argument and return the number of vowels in the string
+
+
+
+
+Q We are given array of marks of students. Filter out of marks of students that scored 90+,
+
+Q Take a number n as input prompt. create an array of number from 1 to n, use the reduce Method to calculate sum of all number in tha array.
+use the reduce methods to calculate product of all number in the array

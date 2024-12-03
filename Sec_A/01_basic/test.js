@@ -340,8 +340,8 @@
 
 // let arr = ["pune", "mumbai", "delhi"]
 
-// arr.forEach((val,arr)=>{
-//     console.log(val.toUpperCase(),arr)
+// arr.forEach((val,idx,arr)=>{
+//     console.log(val.toUpperCase(),idx,arr)
 // })
 
 // const arr=[2,5,9,13,11]
