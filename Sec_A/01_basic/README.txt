@@ -289,3 +289,25 @@ function functionName(){                functionName()
 
 
 Q. Create a function using "function" keywrd that takes a string as an arguments and return the number of vowels in the string
+
+
+For Each Loops
+
+arr.forEach(callBack Function)
+
+
+callBack Function : it is a function to execute for each element in the array
+
+
+arr.forEach(()=>{
+     ../ Your callBack task
+})
+
+Q. for a given array of a number print sq of each value using forEach loop
+
+
+Q given a marks of a students. Filter out of marks of stuent that scored 90+,
+
+q Take a number n as input from the user. Create an array of number from 1 to n.
+use the reduce method to calculate sum ofall number in the array.
+use the reduce method to calculate product of all number in the array.

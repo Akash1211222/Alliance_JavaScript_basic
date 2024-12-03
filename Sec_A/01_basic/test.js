@@ -293,29 +293,95 @@
 
 
 
-// function add(a, b){
-//     console.log("Before return")
-//     return a * b
-//     console.log("after return")
-
+// const arrow = ()=>{
+//     return 2 * 5
 // }
+
+// arrow = 6
+
 
 // let myAdd = add("Hello",25)
 // console.log(myAdd)
 
 
 // Q. Create a function using "function" keywrd that takes a string as an arguments and return the number of vowels in the string
-function vowelcount(word){
-    let vowels ='aeiou'
-    let n = 0
-    for(char of word){
-        if(vowels.includes(char)){
-            n +=1
-        }
-    }
-    console.log(n)
-}
 
-vowelcount('seven')
+//  const newValue = (str)=>{
+//     let count = 0
+//     for(let char of str){
+//        if(char == "a" || char == "e" || char == "i" || char == "o" || char == "u"){
+//         count++
+//        }
+//     }
+//     return count
+// }
 
-// let i = ""
+// console.log(newValue("hello EveryOne"))                                                   
+
+// function double(a){
+//     a*2
+// }
+
+// let arr = [1,2,3,4,5]
+// arr.forEach( (val)=>{
+//     console.log(val)
+// })
+
+
+
+// function abc(){
+//     console.log("Hello")
+// }
+
+
+// function myFunc(abc){
+//     return abc
+// }
+
+// let arr = ["pune", "mumbai", "delhi"]
+
+// arr.forEach((val,arr)=>{
+//     console.log(val.toUpperCase(),arr)
+// })
+
+// const arr=[2,5,9,13,11]
+// arr.forEach((ele)=>{
+//      console.log(ele**2)
+
+// })
+
+// Map Filter Reduce
+
+// Map=> it is similar to forEach the only difference is it create a new array with the resultof some operation
+
+
+// let arr1= [2,3,4,5]
+
+
+// let newarr = arr1.map((val)=>{
+//     return val *2
+// })
+// console.log(newarr)
+
+
+// Filter
+
+//  this will also create a new array of elements that give true for a condition
+
+// let arr = [1,2,3,4,5,6,7,8,9,10]
+
+// let newArr = arr.filter((val)=>{
+//     return val %2 ===0
+// })
+// console.log(newArr)
+
+// reduce
+
+// Perform some operation and reduce the array to a single value
+
+// let arr = [1,2,3,4,5]
+// let newArr = arr.reduce((prev, curr)=>{
+//     return prev + curr
+// })
+
+// console.log(newArr)
