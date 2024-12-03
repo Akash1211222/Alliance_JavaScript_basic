@@ -385,3 +385,30 @@
 // })
 
 // console.log(newArr)
+
+// . for a given array of a number print sq of each value using forEach loop
+
+
+// Q given a marks of a students. Filter out of marks of stuent that scored 90+,
+// let marks = [88,90,94,95,67,78];
+// let FilteredMarks = marks.filter((val)=>{
+//     return val>90;
+// });
+// console.log(FilteredMarks);
+
+
+
+// q Take a number n as input from the user. Create an array of number from 1 to n.
+// use the reduce method to calculate sum ofall number in the array.
+// use the reduce method to calculate product of all number in the array.
+
+// let n = parseInt(prompt())
+// let arr = []
+// for(let i =1;i<n+1;i++){
+//     arr.push(i)
+// }
+
+// let sumOfArr = arr.reduce((prev,curr) => prev += curr )
+// let mulOfArr = arr.reduce((prev,curr) => prev *= curr )
+
+// console.log(arr,sumOfArr,mulOfArr)
