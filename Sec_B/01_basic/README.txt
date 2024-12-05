@@ -1,10 +1,10 @@
-what we can do with JS?
+What we can do with JS?
 => web-page, mobile App, game Devlopment etc.
 
-Q2. Do we ned Compiler to execute the JS?
+Q2. Do we need a Compiler to execute the JS?
 =>NO, we ned js Engine to run the js.
 
-sublimetext
+sublime text
 
 
 
@@ -21,9 +21,9 @@ var a = 30
 let a = 20
 a = 30
 
-const a = 20
+const akashPaul = 20
 
-
+name 
 Variables rules
 1. it cannot be name as any keywords
 2. variables should containt some meaning
@@ -40,14 +40,19 @@ PRIMITIVE TYPES:
 2 Number  let b = 67
 3 Boolean   let c = true/false
 4 Undefined  let z,
-5 null
-
+var z =2
+5 =0
+let z
 
 
 JS is Dynamic Typing
 
 let a = 20
 a = "Akash"
+a = "Neha"
+a = 35765767098
+a = True
+a =  0.23456
 
 
 
@@ -59,14 +64,23 @@ arr[0]= 23
 arr[4]=787
 3 Functions
 
-
-let person = {
-    name: "js"
-    age: 27
+let car = {
+    color: "white",
+    brand: "Thar",
+    wheels: "5",
+    isPetrol:True,
 }
+car['wheels']
+
+1-> Dot notation
+2-> Box notation
+
+
+let songs = [{
+  
+},{},{},{}]
 
 2 ways to use this object
-
 1 dot-notation  => person.name
 2 box-notation  => person['name']
 
@@ -91,15 +105,14 @@ x = x-1     x-=1
 
 pre increment
 post increment
-per decrement
+pre decrement
 post decrement
 
 a = 5
-(a--)
-
+console.log(a--) = 5
 Assignment
-
-x += 2
+x = 5
+x += 2 = x = x+2
 x -= 3
 x/= 2
 
@@ -117,7 +130,7 @@ Comparison
 Ternary Operators
 
 condition ? (True) : (false);
-
+(5>4) ? ""
 
 
 Logical Operators

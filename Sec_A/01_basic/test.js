@@ -278,9 +278,18 @@
 // console.log(brand)
 
 
+// let printHello=(msg)=>{ // - Parameter
+//   console.log(msg/2)
+// }
+
+// printHello(2) // Arguments
+// printHello(18)
+// printHello
 
 
-// function printHello(msg){ // parametrs
+
+// function printHello(msg)=>{ // parametrs
+//     console.log(msg)
 //     console.log(msg)
 //     console.log(msg)
 //     console.log(msg)
@@ -288,8 +297,9 @@
 //     console.log(msg)
 // }
 
-// printHello(25) // arguments
-// printHello("Hello devloper")
+// // printHello(25) // arguments
+// printHello("Akash")
+// printHello("Akash")
 
 
 
@@ -306,7 +316,32 @@
 
 // Q. Create a function using "function" keywrd that takes a string as an arguments and return the number of vowels in the string
 
-//  const newValue = (str)=>{
+// function vol(){
+//     return ('a','e','i','o','u')
+    
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  const newValue = (str)=>{ akash
 //     let count = 0
 //     for(let char of str){
 //        if(char == "a" || char == "e" || char == "i" || char == "o" || char == "u"){
@@ -323,12 +358,26 @@
 // }
 
 // let arr = [1,2,3,4,5]
-// arr.forEach( (val)=>{
+// // arr.forEach( (val)=>{
+// //     console.log(val)
+// // // })
+// arr.forEach((val)=>{
+//      console.log(val*2)
+// })
+
+
+// arr.forEach(function print(val){
 //     console.log(val)
+// })
+
+// let  arr1 = [15,28,38,78,60]
+// arr1.forEach((val,arr1,sovit)=>{
+//    return (val*val,arr1,sovit);
 // })
 
 
 
+// print("fgfg")
 // function abc(){
 //     console.log("Hello")
 // }
@@ -380,9 +429,8 @@
 // Perform some operation and reduce the array to a single value
 
 // let arr = [1,2,3,4,5]
-// let newArr = arr.reduce((prev, curr)=>{
-//     return prev + curr
-// })
+// let newArr = arr.reduce((prev, curr)=> prev + curr
+// )
 
 // console.log(newArr)
 
@@ -402,7 +450,7 @@
 // use the reduce method to calculate sum ofall number in the array.
 // use the reduce method to calculate product of all number in the array.
 
-// let n = parseInt(prompt())
+// let n = prompt()
 // let arr = []
 // for(let i =1;i<n+1;i++){
 //     arr.push(i)
@@ -412,3 +460,18 @@
 // let mulOfArr = arr.reduce((prev,curr) => prev *= curr )
 
 // console.log(arr,sumOfArr,mulOfArr)
+
+
+
+
+let mul =  (msg)=>{
+   console.log(msg *2)
+
+}
+
+// mul(2)
+let array = [4,5,2,3,8]
+
+array.forEach((val)=>{
+    console.log(val)
+})

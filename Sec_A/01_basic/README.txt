@@ -223,7 +223,7 @@ do{
 
 Q. print all even Number from 1 to 100
 
-Q.  Create a game where you Start with random Number. Ask the user to keep Guessing the game number until the user enter Correct Value?
+Q.  Ce user to keep Guessing the game number until the user enter Correct Value?reate a game where you Start with random Number. Ask th
 
 STRINGS IS A SEQUENCE OF CARACTER
 

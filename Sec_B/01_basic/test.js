@@ -24,6 +24,13 @@
 // console.log(ans3)
 // console.log(ans4)
 
+
+// a= 5
+// b = '5'
+// console.log(a===b)
+
+// console.log((5<4) ? "Sovit": "Akash")
+
 // a = 5
 // b = '5'
 // console.log(a===b)
@@ -86,10 +93,10 @@
 
 // let str = "Strings"
 
-// let size = 0
+
 // for(let val of str){
 //     console.log(val)
-//     size++
+    
 // }
 
 // console.log("The length of string is ", size)
@@ -198,7 +205,7 @@
 
 
 // let heros = ["ironMan", "Batman", "Hulk", "Spiderman", "ShaktiMan"]
-// for(hero of heros){
+// for(let hero of heros){
 //     console.log(hero.toUpperCase())
 // }
 
@@ -339,7 +346,7 @@ let num = [23,33,44,55,66,7,88,99]
 
         // let arr = [1,2,302,4,5,6,7,8,9,10]
 
-        // let addition = arr.reduce((prev,curr)=>{
-        //     return prev > curr? prev:curr
-        // })
-        // console.log(addition)
+        let addition = arr.reduce((prev,curr)=>{
+            return prev > curr? prev:curr
+        })
+        console.log(addition)
